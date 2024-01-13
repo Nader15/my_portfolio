@@ -407,11 +407,10 @@ class _HomeState extends State<Home> {
           opacity: showFab ? 1 : 0,
           duration: const Duration(milliseconds: 500),
           child: FloatingActionButton(
-            onPressed: showFab
-                ? _scrollToHeader
-                : null, // make sure user cannot click when button hidden
+            backgroundColor: AppColors.yellow,
+            onPressed: showFab ? _scrollToHeader : null,
             mini: true,
-            child: const AppIcon('icons/double-up-arrow.png', size: 20),
+            child:  const AppIcon('icons/double-up-arrow.png', size: 20,),
           ),
         );
       },

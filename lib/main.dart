@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Nader Salah',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        accentColor: AppColors.yellow,
+        primaryColor: AppColors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Home(),
