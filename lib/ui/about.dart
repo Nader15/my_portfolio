@@ -141,7 +141,7 @@ class About extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               Text(
-                'ABOUT ME',
+                'ABOUT ME ',
                 style: TextStyle(
                   color: AppColors.yellow,
                   fontSize: 20,
